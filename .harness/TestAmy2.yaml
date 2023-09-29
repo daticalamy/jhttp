@@ -23,7 +23,9 @@ pipeline:
                     source:
                       type: Inline
                       spec:
-                        script: liquibase -v
+                        script: |-
+                          whoami
+                          liquibase -v
                     environmentVariables: []
                     outputVariables: []
                   timeout: 10m
