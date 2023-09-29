@@ -26,6 +26,7 @@ pipeline:
                         script: |-
                           whoami
                           export PATH="$PATH:/opt/liquibase/liquibase"
+                          echo $PATH
                           pwd
                           /opt/liquibase/liquibase/liquibase -v
                     environmentVariables: []
