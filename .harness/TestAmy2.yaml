@@ -1,5 +1,5 @@
 pipeline:
-  name: TestAmy2
+  name: Liquibase
   identifier: TestAmy2
   projectIdentifier: AmyTest
   orgIdentifier: default
