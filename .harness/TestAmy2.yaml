@@ -28,6 +28,7 @@ pipeline:
                           export PATH="$PATH:/opt/liquibase/liquibase"
                           echo $PATH
                           pwd
+                          git --version
                           /opt/liquibase/liquibase/liquibase -v
                     environmentVariables: []
                     outputVariables: []
